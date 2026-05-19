@@ -356,7 +356,7 @@ while running:
 
 
         if player_attack_timer > 0:
-            player_attack_timer -= 1  # Уменьшаем таймер атаки игрока
+            player_attack_timer -= 1  # player attack cooldowm makes lower
 
         handle_projectiles()
 
